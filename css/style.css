@@ -1,3 +1,4 @@
+
 body {
   width: 960px;
   margin: auto;
@@ -78,4 +79,38 @@ nav {
 
 #pint-icon {
   margin-right: 15px;
+}
+
+section p {
+text-indent: 35px;
+font-size: 18px;
+line-height: 25px;
+}
+
+article {
+  background-image: url(../lab-assets/list-bg.png);
+}
+
+ul.square-box {
+ list-style-type: none; 
+ margin-left: 60px;
+ margin-top: 40px;
+ position: relative; top: 40px;
+ line-height: 30px;
+}
+
+ li::before { 
+  content: "\2610"; 
+  margin-right: 5px;
+}
+  
+ ul.checked-square {
+   list-style-type: none;
+   position: relative; bottom: 140px; left: 450px;
+   line-height: 30px;
+   
+ }
+  li.checked::before {
+   content: "\2611";
+   margin-right: 5px;
 }
